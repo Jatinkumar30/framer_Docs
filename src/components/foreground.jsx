@@ -7,22 +7,22 @@ function foreground() {
 
   const data = [
     {
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      desc: "This is card number 1 which shows green colour and download sign",
       fileSize: ".9mb",
       close: false,
       tag: { isOpen: true, tagTitle: "Download Now", Color: "bg-green-600" },
     },
     {
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      desc: "This is card number 1 which shows blue colour and cross sign",
       fileSize: ".9mb",
-      close: false,
+      close: true,
       tag: { isOpen: true, tagTitle: "Download Now", Color: "bg-blue-500" },
     },
     {
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      desc: "This is card number 1 which shows no colour and download sign",
       fileSize: ".9mb",
       close: false,
-      tag: { isOpen: true, tagTitle: "Download Now", Color: "bg-green-600" },
+      tag: { isOpen: false, tagTitle: "Download Now", Color: "bg-green-600" },
     },
   ];
 
